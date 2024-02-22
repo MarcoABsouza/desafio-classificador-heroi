@@ -1,6 +1,6 @@
 nickname = "TURURU"
 qtd_XP = 10000
-elo_heroi = " "
+elo_heroi = ""
 
 if qtd_XP == 1000:
     elo_heroi = "Ferro"
