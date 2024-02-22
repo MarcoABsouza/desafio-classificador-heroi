@@ -1,20 +1,20 @@
-nickname = "nome heroi"
-qtd_XP = 1000
-elo_heroi = ""
+nickname = "TURURU"
+qtd_XP = 10000
+elo_heroi = " "
 
 if qtd_XP == 1000:
     elo_heroi = "Ferro"
-elif 1001 >= qtd_XP <= 2000:
+elif qtd_XP >= 1001 and qtd_XP <= 2000:
     elo_heroi = "Bronze"
-elif 2001 >= qtd_XP <= 6000:
+elif qtd_XP >= 2001 and qtd_XP <= 6000:
     elo_heroi = "Prata"
-elif 6001 >= qtd_XP <= 7000:
+elif qtd_XP >= 6001 and qtd_XP <= 7000:
     elo_heroi = "Ouro"
-elif 7001 >= qtd_XP <= 8000:
+elif qtd_XP >= 7001 and qtd_XP <= 8000:
     elo_heroi = "Platina"
-elif 8001 >= qtd_XP <= 9000:
+elif qtd_XP >= 8001 and qtd_XP <= 9000:
     elo_heroi = "Ascendente"
-elif 9001 >= qtd_XP <= 10000:
+elif qtd_XP >= 9001 and qtd_XP <= 10000:
     elo_heroi = "Imortal"
 elif qtd_XP >= 10001:
     elo_heroi = "Radiante"
