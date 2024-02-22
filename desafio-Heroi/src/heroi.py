@@ -16,7 +16,7 @@ elif qtd_XP >= 8001 and qtd_XP <= 9000:
     elo_heroi = "Ascendente"
 elif qtd_XP >= 9001 and qtd_XP <= 10000:
     elo_heroi = "Imortal"
-elif qtd_XP >= 10001:
+else:
     elo_heroi = "Radiante"
 
 match elo_heroi:
